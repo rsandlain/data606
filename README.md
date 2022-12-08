@@ -4,3 +4,4 @@ This project is my UMBC Data Science Capstone Project (Data 606 Fall 2022). Usin
 Is cannabis more harmful, interms of health and productivity, more harmful than alcohol?
 
 Analysis was performed in Stata/MP 16. Sources and an annotated bibliography is available in the Resources folder.
+More project information available [here](https://sites.google.com/umbc.edu/data606fall2022/home).
