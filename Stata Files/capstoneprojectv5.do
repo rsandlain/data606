@@ -1,7 +1,7 @@
 **********************************************************************************************************
 *** Capstone Project Using NSDUH 2017, 2019, 2020                                                      ***
 **********************************************************************************************************
-*** capstone_project version 4 - December 2022
+*** capstone_project version 5 - December 2022
 *** uses capstone_project_cleanData which uses clean_NSDUH 
 *** Assumes clean_NSDUH and capstone_project_cleanData saved in $temp 
 *** Assumes combined clean data file $temp/NSDUH.dta
@@ -1475,6 +1475,7 @@ Marijuana |   *.57205842   .02366002  -.05507945
 /*
 so the percentages of population using steady 19-20, percentge of users misusing steady but within demographic categories changes in who is misusing - eg 7% more female misusers in 2020 compared to 2019
 */
-
+save "$temp/NSDUH.dta", replace
+capture log close
 dadjoke
 //Thank you, Thank you, He's here all week ;)
